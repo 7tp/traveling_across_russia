@@ -1,0 +1,14 @@
+.places__website {
+    align-self: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 524px) {
+    .places__website {
+        position: absolute;
+        top: 55px;
+        z-index: -1;       
+    }
+}

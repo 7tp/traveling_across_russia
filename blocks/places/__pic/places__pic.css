@@ -1,0 +1,9 @@
+.places__pic {
+    padding-top: -20px;
+}
+
+@media screen and (max-width: 524px) {
+    .places__pic {
+        margin-top: 35px;
+    }
+}

@@ -1,0 +1,20 @@
+@media screen and (max-width: 370px) {
+    .video__properties {
+        position: absolute;
+        left: 16px;
+        bottom: 16px;
+        display: grid;
+        grid-template-rows: auto auto auto;
+        grid-gap: 8px;
+    }
+}
+@media screen and (min-width: 371px) and (max-width: 885px) {
+    .video__properties {
+        position: absolute;
+        left: 24px;
+        bottom: 24px;
+        display: grid;
+        grid-template-rows: auto auto auto;
+        grid-gap: 8px;
+    }
+}
