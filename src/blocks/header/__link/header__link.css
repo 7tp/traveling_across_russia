@@ -1,0 +1,6 @@
+@import url(./_selected/header__link_selected.css);
+
+.header__link {
+    color: #FFFFFF;
+    text-decoration-line: none;
+}

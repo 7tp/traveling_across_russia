@@ -1,0 +1,32 @@
+.comments__comment {
+    max-width: 382px;
+}
+
+@media screen and (max-width: 425px) {
+    .comments__comment {
+        display: flex;
+        flex-direction: column;
+        max-width: 343px;
+        margin-bottom: 45px;
+   }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .comments__comment {
+       max-width: 382px;
+       margin: 0 auto 45px auto;
+       display: flex;
+       flex-direction: column;
+   }
+   .comments__comment:last-child {
+       margin-bottom: 0;
+   }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .comments__comment {
+        max-width: 296px;
+    }
+}
+
+

@@ -1,0 +1,20 @@
+# Много весит, появится при установке всех необходимых модулей
+node_modules/
+
+# Обновляемая папка при запуске сборки webpack - npm run build
+dist/
+
+# Системная информация
+/logs
+*.log
+
+# Настройки рабочих директорий Visual Studio Code
+*.vscode
+
+# Стандартные файлы macOS
+DS-Store
+
+/.idea
+.npm
+npm-degub.log*
+*.git

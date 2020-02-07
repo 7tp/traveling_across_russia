@@ -1,0 +1,29 @@
+.comments__container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+
+@media screen and (max-width: 320px) {
+    .comments__container {
+        flex-direction: column;
+        /* max-width: 288px; */
+        margin-top: 37px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+    .comments__container {
+        flex-direction: column;
+       /* max-width: 343px; */
+        margin-top: 48px;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 768px) {
+    .comments__container {
+        flex-direction: column;
+    }
+}
+

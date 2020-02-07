@@ -1,0 +1,32 @@
+.comments__content-subtitle {
+    max-width: 640px;
+    margin: 45px auto 0 auto;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 400;
+    text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+    .comments__content-subtitle {
+        max-width: 343px;
+        margin-top: 20px;
+        font-size: 16px;
+        line-height: 23px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .comments__content-subtitle {
+        margin: 34px 40px 0 40px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .comments__content-subtitle {
+        margin-top: 34px;
+    }
+}
+
+
+

@@ -1,0 +1,23 @@
+.comments__author {
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: bold;
+    letter-spacing: 0.1px;
+}
+
+@media screen and (max-width: 375px) {
+    .comments__author {
+        margin-top: 14px;
+        order: 2;
+        align-self: center;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 768px) {
+    .comments__author {
+        margin-top: 16px;
+        order: 2;
+        align-self: center;
+    }
+}
+

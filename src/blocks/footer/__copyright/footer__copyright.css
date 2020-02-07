@@ -1,0 +1,23 @@
+.footer__copyright {
+    width: 183px;
+    height: 13px;
+    padding-top: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    align-self: flex-end;
+}
+@media screen and (max-width: 674px) {
+    .footer__copyright {
+        margin-top: 10px;
+        margin-bottom: 24px;
+        text-align: left;
+        align-self: flex-start;
+    }
+}
+@media screen and (min-width: 675px) and (max-width: 930px) {
+    .footer__copyright {
+        padding-bottom: 6px;
+    }
+}
+

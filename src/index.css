@@ -1,0 +1,58 @@
+@import url(./vendor/normalize.css);
+@import url(./fonts/inter.css);
+@import url(./blocks/header/header.css);
+@import url(./blocks/main/main.css);
+@import url(./blocks/lead/lead.css);
+@import url(./blocks/intro/intro.css);
+@import url(./blocks/photo-grid/photo-grid.css);
+@import url(./blocks/places/places.css);
+@import url(./blocks/video/video.css);
+@import url(./blocks/comments/comments.css);
+@import url(./blocks/cover/cover.css);
+@import url(./blocks/footer/footer.css);
+
+body {
+    background-color: #2A2C2F;
+    color: #fff;
+    font-family: Inter, Arial, sans-serif;
+    margin: auto;
+}
+
+/* div {
+    outline: 1px solid red;
+}
+section {
+    outline: 1px solid red;
+}
+
+header {
+    outline: 1px solid red;
+}
+
+footer {
+    outline: 1px solid red;
+} */
+
+h1 {
+    margin: 0;
+    padding: 0;
+    /*outline: 1px solid red;*/
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    /*outline: 1px solid red;*/
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+    /*outline: 1px solid red;*/
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    /*outline: 1px solid red;*/
+}
