@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Russia</title>
-    <link rel="stylesheet" href="./css/main.3e1a589e2a4c4d76c4f9.css">
+    <link rel="stylesheet" href="./css/main.6b22e64ff49ef2a6e862.css">
 </head>
 <body>
     <header class="header">
-        <img src="./images/header__logo.svg" alt="логотип Россия" class="header__logo">
+        <a href="#"><img src="./images/header__logo.svg" alt="логотип Россия" class="header__logo"></a>
         <ul class="header__lang">
             <li class="header__lang-item">
                 <a class="header__link header__link_selected" href ="#">Ru</a>
@@ -175,31 +175,36 @@
     </main>
     <footer class="footer">
         <nav class="footer__navigation">
-            <a class="footer__link" href="#">Карты</a>
-            <a class="footer__link" href="#">Погода</a>
-            <a class="footer__link" href="#">Расписание</a>
-            <a class="footer__link" href="#">Календарь</a>
-            <a class="footer__link" href="#">Путешествия</a>
+            <a class="footer__link" href="https://yandex.ru/maps/" target="_blank">Карты</a>
+            <a class="footer__link" href="https://yandex.ru/pogoda/" target="_blank">Погода</a>
+            <a class="footer__link" href="https://rasp.yandex.ru/" target="_blank">Расписание</a>
+            <a class="footer__link" href="https://calendar.yandex.ru/" target="_blank">Календарь</a>
+            <a class="footer__link" href="https://travel.yandex.ru/" target="_blank">Путешествия</a>
+            <button class="footer__link hello-button">Передать привет Ире</button>
         </nav>
         <div class="footer__copyright">&copy; 2019. Ирина Яковлева</div>
     </footer>
-    <script src="./js/main.048dd97f94bbfcb260a5.js"></script>
+
+    <div class="popup">
+        <div class="popup__content">
+            <button class="popup__close">X</button>
+            <h3 class="popup__title">Передать привет Ирине</h3>
+            <form class="popup__form" name="hello">
+                <label>
+                    <input type="text" class="popup__input-name" name="name" placeholder="Имя отправителя" minlength="2" maxlength="30" required>
+                    <span class="popup__error"></span>
+                </label>
+                <label>
+                    <textarea class="popup__input-text" name="text" placeholder="Текст привета" minlength="2" required></textarea>
+                    <span class="popup__error"></span>
+                </label>
+                <button type="submit" class="popup__button">Отправить</button>
+            </form>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    <script src="./js/main.6e038d657a13d042ac77.js"></script>
 </body>
 </html>
-
-<!--В целом по работе: Хорошо сверстаная работа, но проблема с пониманием адаптива.
- Ваш сайт должен центроваться и уменьшаться в размере согласно макету. Сейчас проблема возникает потому что вы не задали центрирующую обертку
- Проще было бы обернуть весь сайт в обертку, которой было бы задано значение ширины, которое вы бы изменяли по мере сужения старницы
- Сейчас же вы дали ширины каждому отдельному блоку и менять их очень сложно.
- Также проблему составляет то, что все ширины четко фиксированы. Попробуйте использовать вместо width, max-width
- -->
-
-<!--В целом по работе:
-
-Отлично, адаптив сделан хорошо. Осталось исправить несколько моментов:
-
-1. При уменьшении экрана до мобильной ширины контент прилепает к странице, нужно добавить защитный padding, чтобы на мобильных устройствах всегда было расстояние от контента до краев страницы
-2. Заголовки по ширине не соответствуют макету, например "В глубины Земли и в дальний космос", но не только в этом месте
-3. Блок cover не соответствует макету.
-
--->
