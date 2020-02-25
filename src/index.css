@@ -10,9 +10,11 @@
 @import url(./blocks/comments/comments.css);
 @import url(./blocks/cover/cover.css);
 @import url(./blocks/footer/footer.css);
+@import url(./blocks/hello-button/hello-button.css);
+@import url(./blocks/popup/popup.css);
 
 body {
-    background-color: #2A2C2F;
+    background-color: #2a2c2f;
     color: #fff;
     font-family: Inter, Arial, sans-serif;
     margin: auto;

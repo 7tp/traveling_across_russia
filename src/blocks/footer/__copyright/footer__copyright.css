@@ -7,7 +7,7 @@
     text-align: right;
     align-self: flex-end;
 }
-@media screen and (max-width: 674px) {
+@media screen and (max-width: 524px) {
     .footer__copyright {
         margin-top: 10px;
         margin-bottom: 24px;
@@ -15,7 +15,15 @@
         align-self: flex-start;
     }
 }
-@media screen and (min-width: 675px) and (max-width: 930px) {
+@media screen and (min-width: 525px) and (max-width: 928px) {
+    .footer__copyright {
+        margin-top: 10px;
+        margin-bottom: 48px;
+        text-align: left;
+        align-self: flex-start;
+    }
+}
+@media screen and (min-width: 929px) and (max-width: 1208px) {
     .footer__copyright {
         padding-bottom: 6px;
     }

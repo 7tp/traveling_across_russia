@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Russia</title>
+    <style>
+        .new-message {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    </style>
+</head>
+<body>
+    <div class="messages">
+        
+    </div>
+
+    <template>
+        <div class="new-message">
+            <div class="new-message__author"></div>
+            <div class="new-message__text"></div>
+        </div>
+    </template>
+
+<script src="<%= htmlWebpackPlugin.files.chunks.messages.entry %>"></script>
+
+</body>
+</html>

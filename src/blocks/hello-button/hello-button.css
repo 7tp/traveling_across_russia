@@ -1,0 +1,10 @@
+.hello-button {
+    padding: 0;
+    text-align: left;
+    background-color: transparent;
+    border: none;
+}
+
+.hello-button:hover {
+    cursor: pointer;
+}
