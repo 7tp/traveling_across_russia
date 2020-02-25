@@ -18,3 +18,5 @@ Open here: https://7tp.github.io/adaptive/
 Iakovleva Irina
 
 e-mail: irinatrifonovna@gmail.com
+
+v.0.0.2 - added button to say hello to creator
