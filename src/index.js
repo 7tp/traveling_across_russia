@@ -1,8 +1,7 @@
 import './index.css';
 
-import sendHello from './sendHello';
-
-import {changeLangEn, changeLangRu} from './change-lang';
+import sendHello from './js/sendHello';
+import {changeLangEn, changeLangRu} from './js/change-lang';
 
 $('.popup__button').click(() => sendHello());
 

@@ -7,6 +7,8 @@ const open = () => {
 const sendMoreHello = () => {
     $('.popup__title').html("Передать привет Ирине");
     $('.popup__form').removeClass('popup__hide');
+    $('.popup__input-name').val('');
+    $('.popup__input-text').val('');
     $('.popup__button').html('Отправить');
     $('.popup__send-more-button').addClass('popup__hide');
 
@@ -67,7 +69,6 @@ export default function sendHello() {
             {name: $('.popup__input-name').val(),
             text: $('.popup__input-text').val()}
         ); */
-        console.log(localSt);
         localStorage.setItem('hello', JSON.stringify(localSt));
         $('.popup__button').html('Отправляю...');
         return message(e);
