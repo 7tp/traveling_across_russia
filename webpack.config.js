@@ -43,7 +43,7 @@ module.exports = {
                         loader: 'image-webpack-loader',
                         options: {
                         name(file) {
-                            if (process.env.NODE_ENV === 'development') {
+                            if (isDev) {
                             return '[path][name].[ext]';
                             }
                             return '[contenthash].[ext]';

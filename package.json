@@ -1,5 +1,5 @@
 {
-  "name": "adaptive_site",
+  "name": "traveling_across_russia",
   "version": "0.0.1",
   "description": "one-page adaptive site",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/7tp/adaptive.git"
+    "url": "git+https://github.com/7tp/traveling_across_russia.git"
   },
   "author": "Irina Iakovleva",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/7tp/adaptive/issues"
+    "url": "https://github.com/7tp/traveling_across_russia/issues"
   },
-  "homepage": "https://github.com/7tp/adaptive#readme",
+  "homepage": "https://7tp.github.io/traveling_across_russia/",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.4",

@@ -11,7 +11,7 @@ Webpack is set.
 * android: "67",
 * ios: "10",
 
-Open here: https://7tp.github.io/adaptive/
+## Open here: https://7tp.github.io/traveling_across_russia/
 
 ## author
 

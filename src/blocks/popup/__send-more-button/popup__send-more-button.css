@@ -1,0 +1,12 @@
+.popup__send-more-button {
+    width: 100%;
+    height: 50px;
+
+    font-size: 24px;
+    line-height: 30px;
+
+    background-color: #2a2c2f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
