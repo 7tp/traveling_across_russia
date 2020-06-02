@@ -1,9 +1,9 @@
 const english = {
     leadTitle: 'Traveling across Russia',
-    leadSubtitle: 'A real country is not in News, but\xa0here',
-    leapCaption: 'your individual banks is on the top',
-    introTitle: 'What haven\'t we see\xa0there?',
-    introText: 'According to polls by the Russian Public Opinion Research Center 95% of Russians are wishing to travel somewhere, but only 36% are planning to spend their vacation in own country. Like, well, what haven\'t we see here? But actually Russia is a hole universe with tender south sea, dense forests of Sayan Mountains and severe ice of Plateau Putorana. And also all these beauty you can see without million in the bank, foreign passport and long hours flights. Like, for example, Vera Bashmakova, a brave young mother, who took her three children and traveled across her native country in her "Lada". We chose and described some intresting places decent your vacation.',
+    leadSubtitle: 'A real country is not in the news but\xa0here',
+    leapCaption: 'your individual banks are on the top',
+    introTitle: 'What haven\'t we seen\xa0there?',
+    introText: 'According to the polls by the Russian Public Opinion Research Center, 95% of Russians wish to travel somewhere, but only 36% plan to spend their vacation in their own country. They say, "well, what haven\'t we seen here?" But in fact Russia is a whole universe with tender sea in the South, dense forests of the Sayan Mountains and severe ice of the Plateau Putorana. And all this beauty you can see without a million in the bank, a foreign passport and long hours flights. For example, like Vera Bashmakova, a brave young mother, who took her three children and traveled across her native country in her "Lada". We chose and described some interesting places worthy of your vacation.',
     introContent: [
         'Timezones ',
         'UNESCO World Natural Heritage Site ',
@@ -19,24 +19,24 @@ const english = {
         'Karelia'
     ],
     placesParagraphItem: [
-        'Here among woods and sand dunes you can see two water horizons: calm Curonian Lagoon from one side and rippled waves of Baltic Sea from the other side.',
+        'Here among woods and sand dunes you can see two water horizons: calm Curonian Lagoon from one side and rippled waves of the Baltic Sea from the other side.',
         'Kaliningrad region doesn\'t end here. Traveller and explorer will find here Baltic kosa, the westernmost point of Russia, and the German heritage of small seaside towns in the neighbourhood. Atmosphere of these places excludes vanity immersing into the tranquillity of nature and the smell of the steel, cool sea.',
-        'Almost the whole peninsula is located beyond the Arctic Circle. A Sami tundra, to the South from which is taiga and to the North is Arctic Ocean, pretends to be Barents Sea.',
-        'Perhaps you watched Zvyagintsev\'s movie and even heard a story of Arctic festival in Teriberk. Maybe a word "Hibins" is not left behind the school memories of Geography classes. Probably you are not intrested in bore hole going down through earth\'s crust and apatite causes apathy. But your dream of northern lights becomes true by buying a ticket to Murmansk.',
-        'Altai is one of the most beautiful places in Russia. First and foremost, because of mountains: if you drive along the ridge, you\'ll see mountainsides covered in pine-trees, rivers and lakes. And if you open the car windows, you\'ll get acquainted with invisible miracle of this place - mountain air.',
-        'Climate in Altai is mild, that is why it\'s better get here in summer. That\'s how you\'ll be able to see all the richness of local flora and fauna. There are mooses roaming through the forests, eagles flying over the ridges and roe deers grazing on the plains. And famous Pallas’s cats (or manuls) are the inhabitants of Altaic region too.',
-        'Lake Baikal is a well-known as a largest lake of the world. Most of us also know it as a largest source of freshwater and one of the most wonderful places of Russia.',
-        'And of course it\'s true. But Baikal is also a perfect place for skyoring contests. This is a kind of sport, when skier ties him/her-self to motocycle, and this tandem tries to score the highest speed on ice. A world record was set on March 2019 - 199.011 km/h.',
-        'Siberia ends not in the Urals, but in Karelia: larch tree that makes taiga doesn\'t grow further than Vodlozero. But it grows up to 30 meters - forests of Karelian national parks have never known an woodcutter\'s ax because of impassable swamps. Some of the pine-trees are the age of more than half a millennium. Touch a living being that saw a sun before Ivan the Terrible. It\'s impossible to find a trail for a hundred kilometers through the virgin forest. And in the rare paths trees are marked by bear\'s claws. To let everybody know, who\'s the Master of the Forest.'
+        'Almost all the peninsula is located beyond the Arctic Circle. The Sami tundra, to the South from which is taiga and to the North is the Arctic Ocean, pretending to be the Barents Sea.',
+        'Perhaps you watched Zvyagintsev\'s movie and even heard a story of the Arctic festival in Teriberk. Maybe, a word "Hibins" is not left behind the school memories of Geography classes. Probably you were not intrested in bore hole going down through earth\'s crust and apatite caused apathy. But your dream of seeing of northern lights becomes true by buying a ticket to Murmansk.',
+        'Altai is one of the most beautiful places in Russia. First and foremost, because of the mountains: if you drive along the ridge, you\'ll see mountainsides covered in pine-trees, mountain rivers and lakes. And if you open the car windows, you\'ll get acquainted with invisible miracle of this place - mountain air.',
+        'Climate in Altai is mild, that is why it\'s better get here in summer. That\'s how you\'ll be able to see all the richness of local flora and fauna. There are moose roaming through the forests, eagles flying over the ridges and roe deers grazing on the plains. And famous Pallas’s cats (or manuls) are the inhabitants of the Altaic region too.',
+        'Lake Baikal is well-known as one of the largest lakes of the world. Most of us also know it as the largest source of freshwater and one of the most wonderful places of Russia.',
+        'And of course it\'s true. But Baikal is also a perfect place for skyoring contests. This is a kind of sport, when skier ties him/her-self to motorcycle, and this tandem tries to score the highest speed on ice. A world record was set on March 2019 - 197.011 km/h.',
+        'Siberia\'s end not in the Urals but in Karelia: larch tree that makes taiga doesn\'t grow further than Vodlozero. But it grows up to 30 meters - forests of Karelian national parks have never known a woodcutter\'s ax because of impassable swamps. Some of the pine-trees are the age of more than half a millennium. Touch a living being that saw a sun before Ivan the Terrible. It\'s impossible to find a trail for a hundred kilometers through the virgin forest. And in the rare paths trees are marked by bear\'s claws. To let everybody know, who\'s the Master of the Forest.'
     ],
-    videoTitle: 'To\xa0the\xa0depths of the earth and into outer space',
-    videoSubtitle: 'Video from Stereotactic studio about places in Russia, where basic research are maintained.',
+    videoTitle: 'To\xa0the\xa0depths of the Earth and into the outer space',
+    videoSubtitle: 'Video from Stereotactic studio about places in Russia, where basic research is maintained.',
     commentContentTitle: 'Photographers shooting Russia',
     commentContentSubtitle: 'Nature and people inspired their award-winning works at international competitions.',
     commentsQuote: [
-        '"If you think, that there is nothing happens in Rissia, just look “outside”…"',
+        '"If you think that there is nothing happens in Russia just look “outside”…"',
         '"If tourists go to the city - no matter what they go there for: for shamballa or Rublev’s frescoes, or Tarkovsky’s homeland - tourists provide any city with youth, jobs and ultimately fill it with life."',
-        '"You come and people tell you how bad they are. And when you show how they feel bad, then you bastard and denigrated everything."'
+        '"You come and people tell you how bad they are. And when you show how they feel bad, then you are a bastard and denigrated everything."'
     ],
     commentAuthor: [
         'Viktor Lyagushkin',
@@ -51,7 +51,7 @@ const english = {
         'Schedule',
         'Calendar',
         'Trips',
-        'Say hello to Ira'
+        'Say hi to Irina'
     ],
     footerCopyright: ' 2020. Irina Iakovleva',
     popupTitle: 'Send greeting to Irina',
