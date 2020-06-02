@@ -9,7 +9,7 @@ const isDev = process.env.NODE_ENV === 'development';
 module.exports = {
     entry: { 
         main: './src/index.js',
-        messages: './src/messages.js'
+        messages: './src/js/messages/index.js'
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
@@ -43,7 +43,7 @@ module.exports = {
                         loader: 'image-webpack-loader',
                         options: {
                         name(file) {
-                            if (process.env.NODE_ENV === 'development') {
+                            if (isDev) {
                             return '[path][name].[ext]';
                             }
                             return '[contenthash].[ext]';
@@ -83,6 +83,10 @@ module.exports = {
         new WebpackMd5Hash(),
         new webpack.DefinePlugin({
             'NODE_ENV': JSON.stringify(process.env.NODE_ENV)
-        })
+        }),
+        new webpack.ProvidePlugin({
+            $: 'jquery',
+            jQuery: 'jquery'
+        }),
     ]
 }

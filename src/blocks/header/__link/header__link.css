@@ -4,3 +4,7 @@
     color: #FFFFFF;
     text-decoration-line: none;
 }
+
+.header__link:hover {
+    text-decoration-line: underline;
+}

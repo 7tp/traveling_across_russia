@@ -11,4 +11,3 @@ for (let i=0; i < message.length; i++) {
     console.log(i, message[i].name, message[i].text, templateClone);
 
 }
-    
